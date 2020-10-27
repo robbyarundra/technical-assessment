@@ -1,0 +1,141 @@
+*{
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* For Navigation */
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    margin: 10px 10px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+.nav-links li h5{
+    padding-top: 6px;
+}
+
+.nav-links a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.nav-links a:hover{
+    color: #00b9f1;
+}
+
+/*For Text*/
+.textline p{
+    font-family: 'Poppins', sans-serif;
+    font-size: medium;
+}
+
+/*For Card*/
+.subtitle{
+    color: red;
+}
+
+.row{
+    align-items: center;
+}
+
+/*For Footer*/
+.subscribe{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top: 2.5px solid black;
+    border-bottom: 2.5px solid grey;
+    border-left: 2.5px solid black;
+    border-right: 2.5px solid grey;
+
+}
+
+.subscribe-button{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top: 2.5px solid grey;
+    border-bottom: 2.5px solid black;
+    border-left: 2.5px solid grey;
+    border-right: 2.5px solid black;
+    background-color: grey;
+    color: white;
+    
+}
+
+.text-subscribe{
+    font-size: 12px;
+    height: 30px;
+}
+
+.first-footer{
+    background-color: #f6f6f6;
+}
+.footer a{
+    color: black;
+}
+
+.second-footer{
+    background-color: #c8c8c8;
+}
+
+/* Contact Us */
+.contact-us-text{
+    color: #333;
+    font-size: 28px;
+}
+
+hr.solid{
+    border-top: 1px solid #000000;
+}
+
+form .form-control:hover{
+    border: 1px solid #24a0ed;
+}
+
+/* Login Page */
+.or-separator{
+    margin: 20px 0 10px;
+    text-align: center;
+    border-top: 1px solid #ccc;
+}
+
+.or-separator i{
+    padding: 0 10px;
+    background: white;
+    position: relative;
+    font-size: 15px;
+    font-style: normal;
+    top: -13px;
+}
+
+.social-media .btn{
+    margin: 20px 10px 20px 10px; /*top right bottom left*/
+    font-size: 15px;
+    text-align: center;
+    border: silver 1px solid;
+    line-height: 24px;
+}
+
+.social-media .btn img{
+    margin-left: 20px;
+    float: left;
+}
+
+@media screen and (max-width:1200px){
+    .body{
+        max-width: 95%;
+    }
+}
